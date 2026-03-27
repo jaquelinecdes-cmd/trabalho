@@ -1,0 +1,7 @@
+# O retorno permite que a função envie um valor de volta para o programa.
+# obs.:type = tb é uma função. (quando a gente pede pra ver se é string, int, float..etc..)
+def soma(a, b):
+ return a + b
+
+resultado = soma(4, 6)
+print(resultado)

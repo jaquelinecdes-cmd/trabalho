@@ -1,0 +1,2 @@
+palavra = "Programação"
+print(len(palavra))

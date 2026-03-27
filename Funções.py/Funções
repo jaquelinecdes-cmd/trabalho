@@ -1,0 +1,67 @@
+# Funções são blocos de código reutilizáveis: 
+'''
+Usar funções ajuda a:
+Organizar melhor o código
+Reutilizar lógica
+Facilitar manutenção
+Tornar o código mais legível
+'''
+#exemplo 1:
+    #1º define a função:
+def saudacao():
+    print("Olá, seja bem-vindo!")
+    #2º Para executar a função, é só chamar:
+saudacao()
+
+#Exemplo2:
+def logar_como_adm ():
+   """Pede a senha do usuário
+   administrativo"""
+valor = input ("informe a senha ADM: ")
+if valor == "admin123":
+    print ("Entrou como administrador")
+else:
+ print ("Senha ADM incorreta")
+
+ def entrar_no_sistema():
+    """Entrando dentro do Sistema"""
+    print ("Entrando no Sistema")
+
+    def sair_do_sistema ():
+       print ("Saindo do Sistema...")
+    while True:
+       print("[1] - Entrar no Sistema")
+       print("[2] - Sair do Sistema")
+       print("[3] - Entrar como ADM")
+       opção = int(input("O que deseja?"))
+
+       if opção ==1:
+          entrar_no_sistema()
+       elif opção ==2:
+          sair_do_sistema()
+       elif opção ==3:
+          logar_como_adm()
+       else:
+          print ("Opção invalida!")
+
+          #Atividade Funções:
+#1) A função não recebe nada, apenas executa o texto "Olá mundo". 
+def ola_mundo():
+    print("Olá mundo")
+ola_mundo()
+
+#2) A função recebe um nome como parâmetro, junta esse nome ao texto "olá", e depois imprime a mensagem completa na tela. 
+def inicio(nome):
+    print("Olá", nome)
+nome = "Ana"
+inicio(nome)
+
+#3) verifica se um número é positivo, negativo ou zero.
+def verificar_numero(numero):
+    if numero > 0:
+        print("O Número é positivo")
+    elif numero < 0:
+        print("O Número é negativo")
+    else:
+        print("O número é zero")
+verificar_numero(5)
