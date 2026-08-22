@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4DBE9;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+.container {
+    background: #CDD0F8;
+    padding: 20px 30px ;
+    border-radius: 10 px;
+    box-shadow: 0 0 10px rgba (0,0,0,0,1);
+    width: 300px;
+    }
+
+    h2, h3{
+        text-align: center;
+                }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 10px;
+        }
+        input{
+            padding: 8px ;
+            border-radius: 5px;
+            border: 1px solid #F4DBE9;
+        }
+        
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #D0C3F1;
+            color: #000000;
+            font-weight: bold; /* texto em negrito*/
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
